@@ -1,0 +1,11 @@
+label{
+    display: block;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+form> input{
+    margin: 10px 10px;
+}
