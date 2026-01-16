@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>practice task</title>
+    <style>
+        .input{
+            display: block;
+            margin-top: 5px;
+        }
+        #block{
+            display: block;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+        <form>
+            <label for="text">Search your Image here :
+                <input type="text" placeholder="Kung Fu Panda" id="text">
+                <button>Search</button>
+            </label>
+            <figure>
+                <img src="images/panda.jpg" alt="panda">
+                <br>
+                <a
+                    href="https://www.google.com/search?sca_esv=e4930b54a8b6c4ed&sxsrf=ANbL-n5FfgN65OWm3O7L0ToQnrqYe6Stew:1768586387583&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxBf9XF8ByrMpEedseJb6C24e7QdJQdIE3TPpl5mEwf0HZUp1chSl04q3NzUG-sivE9fh2upv_LUl1i41J2OLX0ntDV3FbKmN59pJf5BBarEFT9msi8Zx3tjpgPrbRkWHc8AvYww&q=kung+fu+panda&sa=X&ved=2ahUKEwiav4vb0ZCSAxV8TWwGHYbWEhMQtKgLegQIGhAB&biw=1280&bih=855&dpr=1&aic=0">For
+                    more click here</a>
+            </figure>
+            <p>Feedback Form:</p>
+            <label  for="name">Name :
+                <input class="input" type="text" id="name">
+            </label>
+            <label for="date">Date:
+                <input class="input" type="date" name="" id="date">
+            </label>
+
+            <label for="">Comment :
+                <textarea id="block" name="comment" id="" cols="50" rows="5"></textarea>
+            </label>
+            <input class="input" type="submit" value="submit">
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
