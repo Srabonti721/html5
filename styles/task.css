@@ -1,0 +1,21 @@
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+nav >ul {
+    display: flex;
+    /* position: absolute; */
+  
+}
+nav li a{
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+      margin-right: 20px;
+      padding: 5px;
+}
+nav a:hover{
+    color: red;
+    background-color:yellowgreen;
+}
